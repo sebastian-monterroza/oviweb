@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia</title>
+    <link rel="stylesheet" href="multimedia.css">
+</head>
+<body>
+    <div id="overlay" class="overlay"></div>
+    <div id="menu" class="menu">
+        <button class="close-btn" onclick="closeMenu()">✕</button>
+        <ul>
+            <li>Página Principal</li>
+            <li><button class="inici" onclick="window.location.href='index.html';"><b>Inicio</b></button></li>
+            <br>
+            <li>Lecturas</li>
+            <li><button class="quees" onclick="window.location.href='lecturas.html';"><b>¿Qué es?</b></button></li>
+            <li><button class="funcio" onclick="window.location.href='funcionalid.html';"><b>Funcionalidades</b></button></li>
+            <li><button class="desem" onclick="window.location.href='desempe.html';"><b>Desempeño</b></button></li>
+            <li><button class="impac" onclick="window.location.href='impact.html';"><b>Impacto</b></button></li>
+            <li><button class="princi" onclick="window.location.href='principios.html';"><b>Principios Éticos</b></button></li>
+            <br>
+            <li>Files</li>
+            <li><button class="multim" onclick="window.location.href='multimedia.html';"><b>Multimedia</b></button></li>
+            <br>
+            <li>Actividades</li>
+            <li><button class="activid" onclick="window.location.href='actividades.html';"><b>Actividades</b></button></li>
+            <br>
+            <li>Autores y Bibliografía</li>
+            <li><button class="auto" onclick="window.location.href='autores.html';"><b>Autores</b></button></li>
+        </ul>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="menupic">
+            <img src="liverpool.png" width="100" height="150">
+        </div>
+    </div>
+    
+    <header>
+        <button class="menu-btn" onclick="openMenu()">&#9776; Menu</button>
+        <h1>Archivos Multimedia</h1>
+    </header>
+    
+    <main>
+        <div class="content">
+            <div class="multimedia1">
+                <b><h1>Video Files:</h1></b>
+                <p>Si deseas reforzar o saber más acerca de la carrera, a continuación se te presentan 2 videos 
+                    donde describen cómo es el ambiente de la misma:
+                </p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/hgitkRjrUuY?si=NljzDv5Ymq0bfChH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p>Channel: Transformando mi destino</p>
+            </div>
+
+            <div class="multimedia2">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/7XIcmcKfFZc?si=aKwK3K6nsD_oZkrs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p>Channel: La Casa Informática</p>
+                <br>
+                <p>Estos videos te servirán de apoyo para conocer más sobre la carrera y familiarizarte con este
+                    entorno antes y durante tu paso por el mismo.
+                </p>
+            </div>
+        </div>
+    </main>
+
+
+    <footer>
+        <p>Universidad de Córdoba</p>
+        <p>All rights reserved 2025 ©</p>
+    </footer>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
